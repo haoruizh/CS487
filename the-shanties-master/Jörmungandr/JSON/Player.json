@@ -1,0 +1,13 @@
+﻿{
+  "velocity": {
+      "x":  5,
+      "y":  5
+    },
+    "spawnPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "lives": 3,
+    "Behavior": "Player",
+    "BulletType":  "Player"
+  }

@@ -1,0 +1,118 @@
+﻿{
+  "Phase1": {
+    "enemies": [
+      {
+        "enemy": "rockEnemy",
+        "behavior": "FallDown",
+        "position": "top",
+        "health": 1,
+        "points": 100,
+        "amount": 3,
+        "interval": 1,
+        "fireRate": 0,
+        "bulletType": {
+          "type": "none",
+          "speed": 0
+        }
+      }
+    ],
+    "time": {
+      "start": 0,
+      "end": 30
+    }
+  },
+  "Phase2": {
+    "enemies": [
+      {
+        "enemy": "midBoss",
+        "behavior": "BuzzinBox",
+        "position": "centerTop",
+        "health": 25,
+        "amount": 1,
+        "points": 500,
+        "interval": 0,
+        "fireRate": 1,
+        "bulletType": {
+          "type": "midBossBullet",
+          "speed": 4
+        }
+      },
+      {
+        "enemy": "jellyEnemy",
+        "behavior": "HopRight",
+        "position": "left",
+        "health": 1,
+        "amount": 1,
+        "points": 150,
+        "interval": 5,
+        "fireRate": 5,
+        "bulletType": {
+          "type": "triBullet",
+          "speed": 2
+        }
+       }
+    ],
+    "time": {
+      "start": 30,
+      "end": 75
+    }
+  },
+  "Phase3": {
+    "enemies": [
+      {
+        "enemy": "rockEnemy",
+        "behavior": "FallDown",
+        "position": "top",
+        "health": 1,
+        "amount": 2,
+        "points": 100,
+        "interval": 1,
+        "fireRate": 0,
+        "bulletType": {
+          "type": "none",
+          "speed": 0
+        }
+      },
+      {
+        "enemy": "jellyEnemy",
+        "behavior": "HopRight",
+        "position": "left",
+        "health": 1,
+        "amount": 1,
+        "points": 150,
+        "interval": 5,
+        "fireRate": 5,
+        "bulletType": {
+          "type": "triBullet",
+          "speed": 2
+        }
+      }
+    ],
+    "time": {
+      "start": 75,
+      "end": 105
+    }
+  },
+  "Phase4": {
+    "enemies": [
+      {
+        "enemy": "finalBoss",
+        "behavior": "BobInBox",
+        "position": "centerTop",
+        "health": 50,
+        "amount": 2,
+        "points": 1000,
+        "interval": 0,
+        "fireRate": 1,
+        "bulletType": {
+          "type": "finalBossBullet",
+          "speed": 4
+        }
+      }
+    ],
+    "time": {
+      "start": 105,
+      "end": 180
+    }
+  }
+}
